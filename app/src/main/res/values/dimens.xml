@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_title_text_size">
+        35sp
+    </dimen>
+    <dimen name="ss">10dp</dimen>
+    <dimen name="auth_header_image">200dp  </dimen>
+    <dimen name="auth_logo_width_size">220dp  </dimen>
+    <dimen name="auth_logo_hieght_size">100dp  </dimen>
+    <dimen name="title_textSize">18sp  </dimen>
+    <dimen name="et_textSize">16sp  </dimen>
+    <dimen name="et_padding">16dp  </dimen>
+    <dimen name="clickable_text_view">5dp  </dimen>
+    <dimen name="forgot_password_textsize">14sp  </dimen>
+    <dimen name="btn_textSize">18sp  </dimen>
+    <dimen name="btn_padding">8dp  </dimen>
+    <dimen name="lbl_text">16sp  </dimen>
+    <dimen name="progress_dialog_content_padding">10dp</dimen>
+    <dimen name="prgress_bar_size">80dp</dimen>
+    <dimen name="progress_text_marginStart">16dp</dimen>
+
+</resources>

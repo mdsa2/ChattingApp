@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReqisterActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="416dp"
+        android:layout_height="96dp"
+        android:background="@drawable/backregister"
+        android:gravity="center"
+        android:text="Create Account"
+        android:textColor="#ffffff"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameReg"
+        android:layout_width="367dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="32dp"
+        android:hint="Enter your name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:hint="Enter your Email"
+        app:layout_constraintEnd_toEndOf="@+id/nameReg"
+        app:layout_constraintStart_toStartOf="@+id/nameReg"
+        app:layout_constraintTop_toBottomOf="@+id/nameReg" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="32dp"
+        android:hint="Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:hint="Confirm Your Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+
+        app:layout_constraintEnd_toEndOf="@+id/password2"
+        app:layout_constraintStart_toStartOf="@+id/password2"
+        app:layout_constraintTop_toBottomOf="@+id/password2">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/aq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:checked="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="i agree All the terms"
+
+            />
+
+ </LinearLayout>
+
+
+
+<Button
+android:id="@+id/dwaw"
+android:layout_width="354dp"
+android:layout_height="48dp"
+android:layout_marginTop="52dp"
+android:background="@drawable/button"
+android:text="Register"
+android:textColor="#ffffff"
+android:textSize="18sp"
+android:textStyle="bold"
+app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+app:layout_constraintHorizontal_bias="0.492"
+app:layout_constraintStart_toStartOf="@+id/linearLayout"
+app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

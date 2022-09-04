@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">shoppingon</string>
+    <string name="back_">Message</string>
+    <string name="content_description">image</string>
+    <string name="title_login">Login</string>
+    <string name="et_hint_email_id">Email ID</string>
+    <string name="et_hint_password">Password</string>
+    <string name="lbl_forgot_Password">Forgot Password</string>
+    <string name="btn_lbl_login">Login</string>
+    <string name="dont_have_an_account">Dont have an account? </string>
+    <string name="register">Register</string>
+    <string name="err_msg_enter_first_name">please enter your name</string>
+    <string name="err_msg_enter_email">please enter your Email</string>
+    <string name="err_msg_enter_password">please enter your password</string>
+    <string name="err_msg_enter_confirm_password">please confirm your password</string>
+    <string name="err_msg_password_and_confirm_password_mismatch">password and confirm password mismatch </string>
+    <string name="err_msg_agree_terms_and_condation">please agree the terms  </string>
+    <string name="registery_succefull">thanks for registery</string>
+    <string name="please_wait">Please wait&#823;</string>
+    <string name="email_sent_success">"Email sent successfully to reset your password"</string>
+    <string name="btn_save">Save</string>
+    <string name="label_sign_in">Sign In</string>
+    <string name="label_message">Message</string>
+    <string name="label_de">Profile</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_confirm_password">Enter Confirm Password</string>
+    <string name="label_profile">Message</string>
+    <string name="mohammed">mohammed</string>
+
+
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="type_message">Type Message</string>
+    <string name="label_sign_up">Sign Up</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_login">Login</string>
+
+</resources>
